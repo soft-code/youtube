@@ -1,0 +1,19 @@
+{
+    "name": "pkg/youtube",
+    "license": "MIT",
+    "require": {
+        "jane-php/open-api-runtime": "*",
+        "symfony/http-client": "^4.3",
+        "nyholm/psr7": "^1.2"
+    },
+    "require-dev": {
+        "jane-php/open-api": "*",
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youtube\\": "src/",
+            "Youtube\\Api\\": "generated/"
+        }
+    }
+}
